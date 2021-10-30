@@ -1,15 +1,15 @@
 import math
 
 maximum = int(input(" Please Enter the Maximum Value: "))
-
-for Number in range(1, maximum):
-    Temp = Number
+n =10
+for Number in range(1, maximum,n):
+    temp = Number
     Sum = 0
     while(Temp > 0):
-        Reminder = Temp % 10
+        Reminder = temp % n
         Factorial = math.factorial(Reminder)
         Sum = Sum + Factorial
-        Temp = Temp // 10
+        temp = temp // n
     
     if (Sum == Number):
         print(" %d is a Strong Number" %Number)
