@@ -10,9 +10,12 @@ elif(units <= 100):
 elif(units <= 200):
     amount = 130 + 162.50 + ((units - 100) * 5.26)
     surcharge = 45
-else:
+elif:
     amount = 130 + 162.50 + 526 + ((units - 200) * 8.45)
     surcharge = 75
+else:
+    amount = 150 + 168 + 566 + ((units - 300) * 8.0)
+    surcharge = 60
 
 total = amount + surcharge
 print("\nElectricity Bill = %.2f"  %total)
