@@ -8,5 +8,8 @@ def fact(num):
    else:    
       for i in range(1,num + 1):    
           factorial = factorial*i
-   print("The factorial of",num,"is",factorial)   
-fact(num)
+   return factorial
+def print_fact(fact):
+   print(fact)
+ 
+print_fact(fact(num))
