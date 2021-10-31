@@ -1,4 +1,4 @@
-number = 1
+number = input("Enter Number")
 def prime(number):
     count = 0
     i = 2
