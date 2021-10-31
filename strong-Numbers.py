@@ -1,7 +1,7 @@
 import math
 
 maximum = int(input(" Please Enter the Maximum Value: "))
-n =10
+n = int(input("Enter Vaue of N")
 for Number in range(1, maximum,n):
     temp = Number
     Sum = 0
